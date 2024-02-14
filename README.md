@@ -1,7 +1,3 @@
-Certainly! Below is a template for a GitHub README.md file describing the time series forecasting project using LSTM and moving window average:
-
----
-
 # Time Series Forecasting using LSTM
 
 This repository contains code and documentation for a time series forecasting project using Long Short-Term Memory (LSTM) neural networks. The goal of this project is to predict future temperatures using seven years of weather data obtained from the Max Planck Institute's weather dataset.
