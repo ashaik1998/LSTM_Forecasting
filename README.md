@@ -27,19 +27,3 @@ After training the models, we achieved an MAE of 0.19 with the LSTM model, indic
 ## Feature Engineering
 
 We explore the impact of using single and multi-feature inputs on model performance. In the single-feature scenario, we only consider temperature data for prediction. In contrast, the multi-feature scenario incorporates additional variables such as pressure and density alongside temperature, enabling the model to capture more nuanced relationships in the data.
-
-## Repository Structure
-
-- `data/`: Contains the weather dataset.
-- `notebooks/`: Jupyter notebooks containing data preprocessing, model training, and evaluation.
-- `models/`: Saved models and model checkpoints.
-- `results/`: Evaluation results and visualizations.
-- `src/`: Source code for data preprocessing, model architecture, and evaluation metrics.
-
-## Usage
-
-To reproduce the results:
-
-1. Clone this repository.
-2. Install the required dependencies listed in `requirements.txt`.
-3. Run the Jupyter notebooks in the `notebooks/` directory.
